@@ -16,4 +16,9 @@ public class Main {
         return Math.min(arr[n-1],minRecur(arr,n-1));
     }
 }
-
+/*
+step 1.Recursively traverse the array from end:
+step 2. so the base condition will be "if(n==1){
+return arr[0];}
+recursive call then return statement then print the returned statement:
+ */
